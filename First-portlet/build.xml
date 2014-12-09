@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<!DOCTYPE project>
+
+<project name="First-portlet" basedir="." default="deploy">
+	<import file="E:\mylai\eclipse\liferay\liferay-plugins-sdk-6.2\portlets/build-common-portlet.xml" />
+</project>
