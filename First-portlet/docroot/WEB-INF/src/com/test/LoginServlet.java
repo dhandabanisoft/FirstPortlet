@@ -48,6 +48,7 @@ public class LoginServlet extends MVCPortlet {
 				//actionResponse.sendRedirect("invalidLogin.jsp");//error page
 				actionResponse.setRenderParameter("mvcPath","/html/new/invalidLogin.jsp");
 			//return;
+			System.out.println("end of the progrmme");
 		}
 		catch(Throwable theException)
 		{
